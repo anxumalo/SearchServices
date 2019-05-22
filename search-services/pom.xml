@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.alfresco</groupId>
         <artifactId>alfresco-search-and-insight-parent</artifactId>
-        <version>1.4.0-IE1.1.0.2-SNAPSHOT</version>
+        <version>1.1.0.2-SNAPSHOT</version>
     </parent>
     <artifactId>alfresco-search-parent</artifactId>
     <version>1.4.0-IE1.1.0.2-SNAPSHOT</version>
