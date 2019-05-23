@@ -14,22 +14,6 @@
         <solr.version>6.6.0</solr.version>
         <alfresco-solrclient.version>6.5</alfresco-solrclient.version>
     </properties>
-    <distributionManagement>
-        <repository>
-            <id>alfresco-releases</id>
-            <url>https://artifacts.alfresco.com/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>alfresco-snapshots</id>
-            <url>https://artifacts.alfresco.com/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-    <scm>
-        <connection>scm:git:git@github.com:Alfresco/SearchServices.git</connection>
-        <developerConnection>scm:git:git@github.com:Alfresco/SearchServices.git</developerConnection>
-        <url>https://github.com/Alfresco/SearchServices.git</url>
-        <tag>HEAD</tag>
-    </scm>
     <modules>
         <module>alfresco-search</module>
         <module>packaging</module>
