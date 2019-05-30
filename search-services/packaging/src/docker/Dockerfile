@@ -8,9 +8,6 @@ ENV SOLR_ZIP ${project.build.finalName}.zip
 ENV LANG C.UTF-8
 ENV OPENSSL_VERSION 1.0.2k-8.el7
 
-ARG USERNAME=solr
-ARG USERID=33007
-
 COPY "$SOLR_ZIP" .
 
 RUN groupadd solr && useradd -s /bin/bash -g solr solr
