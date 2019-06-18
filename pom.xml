@@ -27,7 +27,7 @@
       <tag>HEAD</tag>
    </scm>
    <modules>
-      <!--<module>search-services</module>-->
+      <module>search-services</module>
       <module>insight-engine</module>
    </modules>
 </project>
